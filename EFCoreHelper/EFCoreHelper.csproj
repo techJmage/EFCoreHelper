@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Authors>Tech J Mage</Authors>
+		<PackageProjectUrl>https://github.com/techJmage/EFCoreHelper</PackageProjectUrl>
+		<Title>EFCoreHelper</Title>
+		<VersionPrefix>3.0.1</VersionPrefix>
+		<AssemblyName>Utility.$(MSBuildProjectName)</AssemblyName>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="LinqKit.Core" Version="1.2.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="LICENSE.txt" />
+	</ItemGroup>
+</Project>
